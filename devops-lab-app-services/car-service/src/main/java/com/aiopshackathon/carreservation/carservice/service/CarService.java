@@ -111,7 +111,7 @@ public class CarService {
 
     private LocationResponse getLocationDetails(String locationUuid) {
         return webClient.get()
-                .uri("http://localhost:9003/api/locations/{locationUuid}", locationUuid)
+                .uri("http://52.2.166.75:9006/api/locations/{locationUuid}", locationUuid)
                 .retrieve()
                 .bodyToMono(LocationResponse.class)
                 .block();
