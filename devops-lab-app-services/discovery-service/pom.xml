@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.aiopshackathon.carreservation</groupId>
 	<artifactId>discovery-service</artifactId>
-	<version>v1</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<name>discovery-service</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
