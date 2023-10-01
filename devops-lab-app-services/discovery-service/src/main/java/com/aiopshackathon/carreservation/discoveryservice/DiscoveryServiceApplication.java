@@ -10,7 +10,9 @@ public class DiscoveryServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DiscoveryServiceApplication.class, args);
-		System.out.print("Testing Jenkins Job");
+		System.out.println("========================================");
+		System.out.println("Testing Jenkins Job");
+		System.out.println("========================================");
 	}
 
 }
